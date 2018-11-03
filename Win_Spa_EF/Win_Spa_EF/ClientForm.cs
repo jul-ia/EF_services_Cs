@@ -45,9 +45,10 @@ namespace Win_Spa_EF
         //purchase
         private void button1_Click(object sender, EventArgs e)
         {
-        //    PurchaseForm pf = new PurchaseForm();
-        //    this.Close();
-        //    pf.ShowDialog();
+            PurchaseForm pf = new PurchaseForm();
+            this.Visible = false;
+            pf.ShowDialog();
+            this.Visible = true;
         }
     }
 }
