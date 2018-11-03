@@ -16,5 +16,23 @@ namespace Win_Spa_EF
         {
             InitializeComponent();
         }
+
+        //client form
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ClientForm cf = new ClientForm();
+            this.Visible = false;
+            cf.ShowDialog();
+            this.Visible = true;
+        }
+
+        //admin form
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AdminForm af = new AdminForm();
+            this.Visible = false;
+            af.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e31349c3f8a1421cb8eb972a9de32698" Name="Diagram1" >
+        <EntityTypeShape EntityType="SpaServices.Category" Width="1.5" PointX="1.375" PointY="0.75" />
+        <EntityTypeShape EntityType="SpaServices.Services" Width="1.5" PointX="4.75" PointY="0.75" />
+        <AssociationConnector Association="SpaServices.CategoryServices" />
+        <EntityTypeShape EntityType="SpaServices.Purchase" Width="1.5" PointX="1.375" PointY="2.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
